@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header {
     width: 100%;
 }
@@ -57,7 +59,7 @@ li a:hover {
 }
 
 .work {
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     object-fit: cover;
     object-position: center;
@@ -69,7 +71,7 @@ li a:hover {
 }
 
 .stage {
-    width: 600px;
+    max-width: 600px;
     height: 300px;
     margin: 120px 50px;
 
@@ -82,8 +84,8 @@ li a:hover {
 
 .item1 {
     font-size: 25px;
-    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
-    0px -4px 10px rgba(255,255,255,0.3)
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3)
 }
 
 .xizmatlar {
@@ -102,7 +104,7 @@ li a:hover {
 }
 
 .box {
-    width: 350px;
+    max-width: 350px;
     height: 500px;
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -162,13 +164,14 @@ li a:hover {
 .end h1 {
     font-size: 30px;
 }
-.end p{
-    color:forestgreen;
+
+.end p {
+    color: forestgreen;
 }
 
 .wrap {
     height: 600px;
-    width: 100%;
+    max-width: 100%;
 
 }
 
@@ -229,7 +232,7 @@ li a:hover {
 }
 
 .boxx {
-    width: 500px;
+    max-width: 500px;
     height: 100px;
     position: absolute;
     right: 70px;
@@ -264,7 +267,7 @@ li a:hover {
 }
 
 .suport {
-    width: 500px;
+    max-width: 500px;
     height: 100px;
     position: absolute;
     right: 70px;
@@ -316,7 +319,7 @@ button:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.input input  {
+.input input {
     width: 400px;
     height: 40px;
     margin: 30px;
@@ -324,7 +327,8 @@ button:hover {
     border-radius: 10px;
     text-align: center;
 }
-.select{
+
+.select {
     width: 400px;
     height: 40px;
     margin: 30px;
@@ -332,15 +336,18 @@ button:hover {
     border-radius: 10px;
     text-align: center;
 }
-.select option{
+
+.select option {
     font-size: 20px;
 }
+
 .input button {
     position: absolute;
     right: 45%;
     padding: 10px;
 }
-.black{
-    
+
+.black {
+
     background-color: black;
 }
